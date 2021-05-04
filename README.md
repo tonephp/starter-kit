@@ -36,7 +36,7 @@ Install npm modules with `npm install` or `yarn install`
 
 Run webpack with `npm start` or `yarn start`
 
-Import database from file `tonephp_db.sql` using phpmyadmin.
+Import database from file `starter_kit_db.sql` using phpmyadmin.
 
 - Open link `http://localhost:40002`
 - Login with this credentials

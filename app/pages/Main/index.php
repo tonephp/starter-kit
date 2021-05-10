@@ -1,1 +1,1 @@
-<?=$this->component('hero')?>
+<?php new app\widgets\subscribe\Subscribe(); ?>

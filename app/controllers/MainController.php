@@ -11,7 +11,7 @@ class MainController extends AppController {
     
        $this->setMeta(
            Tone::$app->getProperty('site_name'),
-           'TonePHP Framework',
+           'Jewerly Coming Soon Site',
            'TonePHP, framework'
        );
 

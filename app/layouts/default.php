@@ -10,18 +10,7 @@
 </head>
 <body>
 
-  <div class="layout">
-    <div class="layout__header">
-      <?=$this->component('header')?>
-    </div>
-    <div class="layout__content">
-      <?=$this->component('message')?>
-      <?=$content?>
-    </div>
-    <div class="layout__footer">
-      <?=$this->component('footer')?>
-    </div>
-  </div>
+  <?=$content?>
   
   <script>
     var serverUrl = "<?=siteUrl()?>";

@@ -1,10 +1,8 @@
 @import "./scss/variables.scss";
 @import "./scss/reset.scss";
-@import "./scss/layout.scss";
 
-@import "../components/header/header.scss";
-@import "../components/footer/footer.scss";
 @import "../components/button/button.scss";
-@import "../components/hero/hero.scss";
-@import "../components/form/form.scss";
-@import "../components/message/message.scss";
+@import "../components/grid/grid.scss";
+@import "../components/email-form/email-form.scss";
+@import "../components/logo/logo.scss";
+@import "../components/loader/loader.scss";

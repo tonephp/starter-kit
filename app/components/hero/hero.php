@@ -1,12 +1,12 @@
 <div class="hero">
-  <div class="hero__body">
-    <div class="hero__logo">
-      <div class="hero__icon">
-        <?=icon('tonephp-logo')?>
-      </div>
-      <div class="hero__logo-text">
-        TonePHP
-      </div>
-    </div>
-  </div>
+  <?=$this->component('logo')?>
+  <p class="hero__text">
+    This is StarterKit, based on TonePHP framework.</br>
+    Create pages, components and user interactions.
+  </p>
+  <?=$this->component('button', [
+    "title" => "See docs",
+    "href" => "https://tonephp.com/docs",
+    "target" => "_blank"
+  ])?>
 </div>

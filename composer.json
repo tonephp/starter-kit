@@ -1,6 +1,6 @@
 {
     "name": "tonephp/starter-kit",
     "require": {
-        "tonephp/tonephp": "^0.1.9"
+        "tonephp/tonephp": "^0.1.10"
     }
 }
